@@ -7,6 +7,7 @@ date: '2022-08-27'
 category: ['graphics', 'post_processing']
 thumbnail: /assets/img/posts/20220827-teahouse.png
 usemathjax: false
+permalink: /blog/post-processing-outline-shader
 ---
 
 ## Outline Shader
