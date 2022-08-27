@@ -7,7 +7,7 @@ date: '2022-08-27'
 category: ['graphics', 'post_processing']
 thumbnail: /assets/img/posts/20220827-teahouse.png
 usemathjax: false
-permalink: /page/blog/post-processing-outline-shader
+permalink: {{site.url}}{{site.baseurl}}/blog/post-processing-outline-shader
 ---
 
 ## Outline Shader
@@ -99,4 +99,4 @@ How you use the edge value is up to you, but I created a limited-colour-palette 
 
 With just the edge value, you should be able to render a simple outline like this.
 
-![Outline](/page/assets/img/posts/20220827-outline.png)
+![Outline]({{site.url}}{{site.baseurl}}/assets/img/posts/20220827-outline.png)
