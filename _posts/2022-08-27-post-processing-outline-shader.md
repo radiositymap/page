@@ -20,9 +20,9 @@ There are other methods like depth-based edge detection, which requires a 3D sce
 
 Before introducing edge-detection, I'd like to write a brief guide on creating a Unity post-processing shader. I'm using a rather old version of Unity, with just the built-in render pipeline. The post-processing shader is a normal shader whose input and output needs to be bound to the camera via code.
 
-1. Create an 'Image effect shader'. Create a new material and assign this new shader to it.
+Create an 'Image effect shader'. Create a new material and assign this new shader to it.
 
-2. Create a new C# script to bind the shader input and output. You'll have to use the 'OnRenderImage()' call back and 'Graphics.Blit()' function to draw using this shader and overwrite the colour buffer.
+Create a new C# script to bind the shader input and output. You'll have to use the 'OnRenderImage()' call back and 'Graphics.Blit()' function to draw using this shader and overwrite the colour buffer.
 
 The 'OnRenderImage()' call back is only called on scripts which are attached to an active camera. The 'Graphics.Blit()' function sets two textures - the source texture would be accessible to the shader as '\_MainTex', and the destination is the texture rendered by the Camera.
 
@@ -44,7 +44,7 @@ public class ApplyImageEffect : MonoBehaviour
 }
 ```
 
-3. Attach your script to the active camera.
+Attach your script to the active camera.
 
 ## Edge-Detection
 
