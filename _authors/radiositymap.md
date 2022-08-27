@@ -1,0 +1,11 @@
+---
+name: Radiosity Map
+username: radiositymap
+bio: "Good day, I'm a programmer."
+site: http://radiositymap.github.io/page
+avatar: radiositymap.png
+email: radiositymap@gmail.com
+social:
+    - title: "github"
+      url: "https://github.com/radiositymap"
+---

@@ -18,7 +18,7 @@ ol, ul { margin-left: 30px !important; }
 /* On scroll progress bar */
 #progress-bar { background: linear-gradient(to right, #f69801 var(--progress), transparent 0); height: 5px; position: fixed; width: 100%; overflow: hidden; z-index: 1; margin-top: 25px; }
 
-body { background-color: var(--main-background-color) !important; color: var(--main-text-color) !important; font-family: 'Quicksand', sans-serif !important; font-feature-settings: "kern"on; font-size: 1.4rem; font-variant-numeric: oldstyle-nums; hanging-punctuation: first last; height: 100%; line-height: 1.35em; margin: 0; text-rendering: optimizeLegibility; padding-top: 33px; overflow-x: hidden; overflow-y: scroll; }
+body { background-color: var(--main-background-color) !important; color: var(--main-text-color) !important; font-family: 'Century Schoolbook Monospace', serif !important; font-feature-settings: "kern"on; font-size: 1.4rem; font-variant-numeric: oldstyle-nums; hanging-punctuation: first last; height: 100%; line-height: 1.35em; margin: 0; text-rendering: optimizeLegibility; padding-top: 33px; overflow-x: hidden; overflow-y: scroll; }
 
 .reactions-view { color: var(--bold-color) !important; }
 

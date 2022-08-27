@@ -10,6 +10,7 @@ layout: default
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
+      {% comment %}
       {% if site.github_username %} {%- include github_follow_button.html -%} {%
       endif %}
 
@@ -83,6 +84,7 @@ layout: default
         </a>
         {% endif %}
       </p>
+      {% endcomment %}
 
       {% if site.author_location %}
       <h6><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</h6>
