@@ -99,4 +99,4 @@ How you use the edge value is up to you, but I created a limited-colour-palette 
 
 With just the edge value, you should be able to render a simple outline like this.
 
-![Outline]({{site.url}}/assets/img/posts/20220827-outline.png)
+<img src="{{site.url}}/assets/img/posts/20220827-outline.png" width="100%" />
