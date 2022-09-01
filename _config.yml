@@ -70,6 +70,15 @@ author_project_details:
 #                project_description: A Platform built for Hackers and Penetration Testers
 #                project_url: https://hack4r.com
 #                visibility: true
+              - project_vid: tuifangkuai.webm
+                project_title: TuiFangKuai
+                project_description: Sliding block puzzle game with editor and 'save and load' function. I wrote some custom shaders for the visual effect.
+                project_url: https://github.com/radiositymap/TuiFangKuai
+                visibility: true
+              - project_vid: fluidsim.webm
+                project_title: Fluid Simulation and Shading
+                project_description: Wrote OpenGL demo of fluid surface simulated using an algorithm from Mathematics for 3D Game Programming and Computer Graphics by Eric Lengyel. Wrote shading to view surface perturbation.
+                visibility: true
 
 # social links
 #twitter_username: johndoe
