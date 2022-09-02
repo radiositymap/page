@@ -77,7 +77,12 @@ author_project_details:
                 visibility: true
               - project_vid: fluidsim.webm
                 project_title: Fluid Simulation and Shading
-                project_description: Wrote OpenGL demo of fluid surface simulated using an algorithm from Mathematics for 3D Game Programming and Computer Graphics by Eric Lengyel. Wrote shading to view surface perturbation.
+                project_description: OpenGL demo of a fluid surface, simulated using an algorithm from Mathematics for 3D Game Programming and Computer Graphics by Eric Lengyel. Added shading to view surface perturbation.
+                visibility: true
+              - project_thumbnail: todo.png
+                project_title: Todo Kanban Board
+                project_description: A command-line interface Kanban board written in C. This was a little tool I wrote for myself to manage tasks.
+                project_url: https://github.com/radiositymap/todo
                 visibility: true
 
 # social links

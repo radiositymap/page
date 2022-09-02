@@ -122,19 +122,21 @@ layout: default
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
       <div class="row" id="project-card">
-        <!--
+        {% if project.project_thumbnail %}
         <div class="col-md-6">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
-            class="project-img"
+            width="100%"
           />
         </div>
-        -->
+        {% endif %}
+        {% if project.project_vid %}
         <div class="col-md-6">
           <video width="100%" controls>
             <source src="{{site.url}}{{site.baseurl}}/assets/vid/{{project.project_vid}}">
           <video/>
         </div>
+        {% endif %}
         <div class="col-md-6 center">
           <h4 class="experience-title">{{ project.project_title }}</h4>
           <h6 class="experience-info">{{ project.project_info}}</h6>
