@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Radiosity Map
+subtitle: My personal developer site
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  This site is used to organise my development blogs and personal projects.
 remote_theme: sujaykundu777/devlopr-jekyll
 
 url: "https://radiositymap.github.io/page" # the base hostname & protocol for your site, e.g. https://example.github.io
