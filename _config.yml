@@ -10,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Navigation
 urls:
     - text: Home
-      url: /
+      url: /home
     - text: About
       url: /about
     - text: Blog
@@ -72,7 +72,7 @@ author_project_details:
 #                visibility: true
               - project_vid: tuifangkuai.webm
                 project_title: TuiFangKuai
-                project_description: Sliding block puzzle game with editor and 'save and load' function. I wrote some custom shaders for the visual effect.
+                project_description: Sliding block puzzle game with editor and 'save and load' function. I wrote some custom shaders for the visual effect. Still in development.
                 project_url: https://github.com/radiositymap/TuiFangKuai
                 visibility: true
               - project_vid: fluidsim.webm
