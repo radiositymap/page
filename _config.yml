@@ -75,6 +75,11 @@ author_project_details:
                 project_description: Sliding block puzzle game with editor and 'save and load' function. I wrote some custom shaders for the visual effect. Still in development.
                 project_url: https://github.com/radiositymap/TuiFangKuai
                 visibility: true
+              - project_thumbnail: shaders.png
+                project_title: Shaders Demo
+                project_description: A demo of screen-space outline effect, run on the Unity universal render pipeline demo scene. Currently there seems to be a bug affecting user input in WebGL.
+                project_url: https://radiositymap.github.io/ShadersDemo
+                visibility: true
               - project_vid: fluidsim.webm
                 project_title: Fluid Simulation and Shading
                 project_description: OpenGL demo of a fluid surface, simulated using an algorithm from Mathematics for 3D Game Programming and Computer Graphics by Eric Lengyel. Added shading to view surface perturbation.
