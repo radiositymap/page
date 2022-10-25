@@ -77,7 +77,7 @@ author_project_details:
                 visibility: true
               - project_thumbnail: shaders.png
                 project_title: Shaders Demo
-                project_description: A demo of screen-space outline effect, run on the Unity universal render pipeline demo scene. Currently there seems to be a bug affecting user input in WebGL.
+                project_description: A demo of screen-space outline effect, run on the Unity universal render pipeline demo scene.
                 project_url: https://radiositymap.github.io/ShadersDemo
                 visibility: true
               - project_vid: fluidsim.webm
