@@ -72,8 +72,8 @@ author_project_details:
 #                visibility: true
               - project_vid: tuifangkuai.webm
                 project_title: TuiFangKuai
-                project_description: Sliding block puzzle game with editor and 'save and load' function. I wrote some custom shaders for the visual effect, and I also wrote a solver for the puzzle.
-                project_url: https://github.com/radiositymap/TuiFangKuai
+                project_description: Sliding block puzzle game with randomly generated levels. You can create and save your own levels with the level editor, and there is a graph-based solver if you get stuck. The materials and visual effects were created with custom shaders.
+                project_url: https://radiositymap.github.io/tfkbuild
                 visibility: true
               - project_thumbnail: shaders.png
                 project_title: Shaders Demo
