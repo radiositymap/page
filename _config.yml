@@ -70,6 +70,11 @@ author_project_details:
 #                project_description: A Platform built for Hackers and Penetration Testers
 #                project_url: https://hack4r.com
 #                visibility: true
+              - project_vid: rainbowdrop.webm
+                project_title: 'Rainbow Drop: Master Quest'
+                project_description: Tetris with a twist. Submission for Global Game Jam Singapore. Every level aims to surprise the player with a twist to the mechanics. I used free art assets, and managed to finish all the logic within the 48 hours given, but I did polish the final build up a little.
+                project_url: https://radiositymap.github.io/rainbowdropbuild
+                visibility: true
               - project_vid: tuifangkuai.webm
                 project_title: TuiFangKuai
                 project_description: Sliding block puzzle game with randomly generated levels. You can create and save your own levels with the level editor, and there is a graph-based solver if you get stuck. The materials and visual effects were created with custom shaders.
