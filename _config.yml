@@ -35,41 +35,36 @@ typewrite-text: Welcome to my personal developer site!
 hero_cover_img: teahouse2.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
-author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
+#author_work_experiences:
+#            - company_name: Google
+#              company_logo: google.png
+#              company_url: https://google.com
+#              designation: Software Engineer
+#              description: Worked on various Google Products
+#              visibility: true
+#            - company_name: Microsoft
+#              company_logo: microsoft.png
+#              company_url: https://microsoft.com
+#              designation: Azure Developer
+#              description: Worked on various Azure Cloud Products
+#              visibility: true
 
 # Education
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+#author_education_details:
+#              - college_logo: mit.png
+#                college_name: MIT
+#                college_url: https://mit.org
+#                college_degree: CS Engineer
+#                description: Bachelor of Technology
+#                visibility: true
 
 # Projects
 author_project_details:
-#              - project_thumbnail: gamershub.png
-#                project_title: Gamers Hub
-#                project_description: A Platform built for Gamers and Game Devs
-#                project_url: https://gamershub.in
-#                visibility: true
-#              - project_thumbnail: hack4r.PNG
-#                project_title: Hack4r
-#                project_description: A Platform built for Hackers and Penetration Testers
-#                project_url: https://hack4r.com
-#                visibility: true
+              - project_thumbnail: threejsdemo.png
+                project_title: Three.js Demo
+                project_description: A demo of rendering with three.js, including environmental map, material remapping and custom shader programming to implement depth heatmap.
+                project_url: https://radiositymap.github.io/threejsdemo
+                visibility: true
               - project_vid: rainbowdrop.webm
                 project_title: 'Rainbow Drop: Master Quest'
                 project_description: Tetris with a twist. Submission for Global Game Jam Singapore. Every level aims to surprise the player with a twist to the mechanics. I used free art assets, and managed to finish all the logic within the 48 hours given, but I did polish the final build up a little.
